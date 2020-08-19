@@ -174,7 +174,8 @@ iframe {
   text-align: center;
   position: relative;
   bottom: 2.5rem;
-  color: lime;
+  color: white;
+  text-shadow: 400;
 }
 
 .mbtn {
