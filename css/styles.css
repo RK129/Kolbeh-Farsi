@@ -228,10 +228,6 @@ iframe {
   padding: 3% 0 3%;
 }
 
-.navbar-brand {
-  color: #fff;
-}
-
 .reg_header {
   text-align: center;
   color: #59405c;
@@ -240,7 +236,13 @@ iframe {
 }
 
 .reg {
-  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.classes {
+  text-align: right;
+  margin: 2rem;
 }
 
 .rreg {
