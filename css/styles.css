@@ -118,6 +118,8 @@ iframe {
 .des {
   padding: 1% 0;
   width: 60%;
+  line-height: 2;
+  text-align: right;
 }
 
 .feature-box {
@@ -128,6 +130,10 @@ iframe {
 .imgsizing {
   width: 60%;
   height: 100%;
+}
+
+.ci {
+  font-size: 1rem;
 }
 
 .img1 {
@@ -234,8 +240,11 @@ iframe {
 }
 
 .reg {
-  color: #519872;
-  font-weight: bold;
+  text-align: center;
+}
+
+.rreg {
+  text-align: center;
 }
 
 .invidst {
