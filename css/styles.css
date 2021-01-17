@@ -24,6 +24,12 @@
 }
 
 /* Selectors */
+
+.wrs:hover {
+  text-decoration: overline;
+  color: #9f36ad;
+}
+
 .power:hover {
   color: green;
   text-decoration: none;
@@ -42,6 +48,13 @@ iframe {
   /* background-color: green; */
   /* background-color: #e3fdfd; */
   background-color: #cefff1;
+}
+
+.wrs {
+  color: #6a2c70;
+  padding-left: 3%;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .fixed {
@@ -73,6 +86,14 @@ iframe {
 .form4contactme {
   text-align: center;
   padding-top: 4%;
+}
+
+.tr1 {
+  position: relative;
+  right: 27rem;
+  top: 12rem;
+  margin-left: 1.5rem;
+  display: inline-block;
 }
 
 .cm {
@@ -114,6 +135,11 @@ iframe {
 
 .car2 {
   padding-top: 3%
+}
+
+.dc {
+  position: relative;
+  width: 4%;
 }
 
 .des {
@@ -188,7 +214,20 @@ iframe {
   padding-left: 10%;
 }
 
+.test {
+  position: relative;
+  left: 9rem;
+  width: 50%;
+}
+
 .dropdown-item {
+  display: none;
+  position: relative;
+  min-width: 100px;
+}
+
+.dropdown {
+  position: relative;
   display: inline-block;
 }
 
@@ -199,6 +238,13 @@ iframe {
 .cmh {
   text-align: center;
   margin-bottom: -20px;
+}
+
+.class {
+  display: block;
+  width: 30rem;
+  position: relative;
+  background-color: cyan;
 }
 
 .switch {
