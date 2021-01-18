@@ -88,10 +88,8 @@ iframe {
 }
 
 .tr1 {
-  position: relative;
-  right: 27rem;
-  top: 12rem;
-  margin-left: 1.5rem;
+  text-align: center;
+  /* margin-left: 1.5rem; */
   display: inline-block;
 }
 
