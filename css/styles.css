@@ -52,7 +52,6 @@ iframe {
 
 .wrs {
   color: #6a2c70;
-  padding-left: 3%;
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -275,12 +274,12 @@ iframe {
   padding: 3% 0 3%;
 }
 
-.reg_header {
+/* .reg_header {
   text-align: center;
   color: #59405c;
   background-color: #cefff1;
   padding-top: 2%;
-}
+} */
 
 .reg {
   color: #fff;
