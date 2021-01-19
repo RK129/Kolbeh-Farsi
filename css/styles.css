@@ -35,6 +35,10 @@
   text-decoration: none;
 }
 
+.over:hover {
+  color: cyan;
+}
+
 iframe {
   padding: 0 1% 1%;
 }
@@ -380,4 +384,40 @@ iframe {
   background-color: #408c99;
   text-decoration: none;
   color: yellow;
+}
+
+.over {
+  -moz-box-shadow: 0px 10px 14px -7px #276873;
+  -webkit-box-shadow: 0px 10px 14px -7px #276873;
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+  background: -moz-linear-gradient(center top, #599bb3 5%, #408c99 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99');
+  background-color: #599bb3;
+  -webkit-border-top-left-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+  border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  border-top-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-bottom-left-radius: 8px;
+  text-indent: 0;
+  position: relative;
+  bottom: 2.5rem;
+  padding: 13px 32px;
+  display: inline-block;
+  color: #ffffff;
+  font-family: arial;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Caveat', cursive;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0px 1px 0px #3d768a;
 }
