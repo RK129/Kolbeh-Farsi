@@ -8,6 +8,12 @@
   .img1 {
     width: 230rem;
   }
+
+  .tr1 {
+    padding-top: 1.5rem;
+    margin-bottom: -1rem;
+    width: 400px;
+  }
 }
 
 /* IDs */
@@ -49,9 +55,8 @@ iframe {
 
 .body {
   text-align: center;
-  /* background-color: green; */
-  /* background-color: #e3fdfd; */
   background-color: #cefff1;
+  max-width: 100%;
 }
 
 .wrs {
@@ -93,7 +98,6 @@ iframe {
 
 .tr1 {
   text-align: center;
-  /* margin-left: 1.5rem; */
   display: inline-block;
 }
 
