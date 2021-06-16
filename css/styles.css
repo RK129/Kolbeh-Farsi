@@ -8,9 +8,14 @@
     width: 230rem;
   }
   .tr1 {
+    text-align: center;
     padding-top: 1.5rem;
     margin-bottom: -1rem;
-    width: 400px;
+    width: 100px;
+  }
+  iframe {
+    height: 150px;
+    width: 299px;
   }
 }
 
