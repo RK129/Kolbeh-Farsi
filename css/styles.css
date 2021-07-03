@@ -331,7 +331,7 @@ iframe {
 }
 
 .mbtn {
-  padding: 3px 5px;
+  padding: 2px 3px;
 }
 
 .b {
@@ -390,9 +390,9 @@ iframe {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: #3EDBF0;
+  min-width: 109px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
@@ -403,12 +403,32 @@ iframe {
   display: block;
 }
 
+.dropdown-content a:hover {
+  background-color: #CDF0EA;
+  text-decoration: none;
+  color: #000;
+}
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+/* CSS Affects */
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  background-color: #3EDBF0;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .classname {
