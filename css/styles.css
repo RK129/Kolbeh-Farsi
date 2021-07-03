@@ -23,17 +23,26 @@
   .birthday {
     font-size: 1.5rem;
   }
+  .birthday2 {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 920px) {
   .birthday {
     font-size: 1.3rem;
   }
+  .birthday2 {
+    font-size: 0.8rem;
+  }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 860px) {
   .birthday {
     font-size: 1rem;
+  }
+  .birthday2 {
+    font-size: 0.6rem;
   }
 }
 
@@ -43,6 +52,11 @@
     position: absolute;
     left: 2rem;
     top: 5rem;
+  }
+  .birthday2 {
+    position: absolute;
+    left: 2rem;
+    top: 9.2rem;
   }
 }
 
@@ -135,6 +149,11 @@ iframe {
   border-radius: 5%;
 }
 
+.birthday2 {
+  background-color: #77ACF1;
+  border-radius: 5%;
+}
+
 .cm {
   background-color: #cefff1;
   /* background-color: #006a71; */
@@ -203,7 +222,7 @@ iframe {
 }
 
 .img1 {
-  width: 27%;
+  width: 20%;
   border-radius: 50%;
 }
 
@@ -233,6 +252,10 @@ iframe {
 .hrh {
   border: dotted #EAF6F6 10px;
   border-bottom: none;
+}
+
+.sticky {
+  position: sticky;
 }
 
 .grads {
